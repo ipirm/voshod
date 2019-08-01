@@ -915,7 +915,6 @@ template {
     display: inline-block; } }
 
 .active__content {
-  position: fixed;
   left: 173px; }
 
 .freeze {
