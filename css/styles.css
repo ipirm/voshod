@@ -915,10 +915,12 @@ template {
     display: inline-block; } }
 
 .active__content {
+  position: fixed;
   left: 173px; }
 
 .freeze {
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
 
 .active-sidebar {
   left: 0; }
