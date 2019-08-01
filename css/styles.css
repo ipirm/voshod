@@ -888,6 +888,8 @@ template {
     display: none; }
   .overlay-films {
     width: 100%; }
+    .overlay-films img {
+      min-height: 288px; }
     .overlay-films__item {
       width: 100%;
       margin-top: 35px; }
@@ -913,6 +915,7 @@ template {
     display: inline-block; } }
 
 .active__content {
+  position: fixed;
   left: 173px; }
 
 .freeze {
