@@ -39,6 +39,7 @@
 document.querySelector('.mobile-menu__btn').addEventListener('click', () => {
 	console.log('fafaaf');
   document.body.classList.toggle('freeze');
+	document.querySelector("html").classList.toggle('freeze');
 	document.querySelector('.sidebar').classList.toggle('active-sidebar');
 	document.querySelector('.header-right__col').classList.toggle('active-search');
 	document.querySelector('.content-cinema').classList.toggle('active__content');
